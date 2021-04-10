@@ -39,7 +39,7 @@ public class CursomcApplication implements CommandLineRunner {
 		SpringApplication.run(CursomcApplication.class, args);
 	}
 
-	/*Método que Instancia 2 objetos iniciais para popular o banco de dados*/
+	/*Método que Instancia os objetos iniciais para popular o banco de dados*/
 	@Override
 	public void run(String... args) throws Exception {
 
