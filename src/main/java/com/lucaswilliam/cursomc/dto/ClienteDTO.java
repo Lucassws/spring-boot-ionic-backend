@@ -1,12 +1,15 @@
 package com.lucaswilliam.cursomc.dto;
 
 import com.lucaswilliam.cursomc.domain.Cliente;
+import com.lucaswilliam.cursomc.services.validation.ClienteUpdate;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
+import java.io.Serializable;
 
-public class ClienteDTO {
+@ClienteUpdate
+public class ClienteDTO implements Serializable {
 
     private Integer id;
 
